@@ -17,7 +17,7 @@ const port = 8000;
 
 //** HTTP GET Request  */
 app.get("/", (req, res) => {
-  res.status(200).json("Home GET Request");
+  res.status(200).json("Welcome to URLSHORTENER Backend API");
 });
 
 //** API routes */
